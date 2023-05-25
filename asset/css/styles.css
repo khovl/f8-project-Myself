@@ -21,6 +21,11 @@ a {
 }
 .btn {
     border: none;
+    width: 186px;
+    height: 68px;
+    background: #1EBFC1;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 14px;
 }
 .btn:hover {
     opacity: 0.7;
@@ -65,8 +70,180 @@ a {
     text-align: center;
     color: #494949;
 }
+.header .active a.btn.SI {
+    background: #fff;
+}
 .header .active a.btn.SU {
     width: 110px;
     border: 1px solid #1EBFC1;
     border-radius: 6px;
+    background: #fff;
+}
+/* Hero */
+/* hero left */
+.hero {
+    margin-top: 50px;
+}
+.hero .body {
+    display: flex;
+    justify-content: space-between;
+}
+.hero .infor {
+    width: 44%;
+    padding-top: 93px;
+    margin-right: 136px ;
+}
+.hero .infor .text {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #767E7E;
+}
+.hero .infor .title {
+    width: 458px;
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.16;
+    color: #0D1111;
+}
+.hero .infor .desc {
+    margin-top: 46px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #9DA6A5;
+}
+.hero .infor .action {
+    display: flex;
+    margin-top: 72px;
+    align-items: center;
+}
+.hero .infor .btn-hero {
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero .infor .play {
+    padding-left: 50px;
+    width: 62px;
+    height: 62px;
+    background: #FFFFFF;
+    box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    border: none;
+}
+.hero .infor .play:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+/* hero- right */
+.image {
+    padding-left: 36px;
+    width: 641px;
+    position: relative;
+    width: 56%;
+
+}
+.image .pic-main {
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+    
+}
+.image .card-1 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 149px;
+    width: 157px;
+    height: 75px;
+    background: #FEFEFD;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+}
+.image .card-1 .book-line {
+    position: relative;
+}
+.image .card-1 .book-line .line {
+    left: 4px;
+    bottom: 8px;
+    position: absolute;
+    width: 28px;
+    height: 4px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+.image .card-1 .cours {
+    margin-left: 16px;
+    width: 50px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 15px;
+    color: #0D1111;
+}
+.image .card-2 {
+    left: 0;
+    bottom: 46px;
+    position: absolute;
+    width: 124px;
+    height: 132px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+.image .card-2 .schedules {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #0D1111;
+}
+.image .card-2 .line {
+    margin-top: 13px;
+}
+.image .card-2 .line:first-child {
+    margin-top: 16px;
+}
+.image .card-3 {
+    position: absolute;
+    right: 45px;
+    bottom: 41px;
+    width: 207px;
+    height: 90px;
+    background: #FEFEFD;
+    box-shadow: 0px 12px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+.image .card-3 .active {
+    margin-top: 17px;
+    padding-left: 35px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 15px;
+    color: #0D1111;
+}
+.image .card-3 .avt-blog .avt-gr {
+    margin-top: 8px;
+    padding-left: 35px;
+    display: flex;  
+    align-items: center;
+}
+.image .card-3 .avt-blog .avt-gr .avt {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -3px;
+}
+.image .card-3 .avt-blog .avt-gr p.text {
+    padding-top: 12px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #1EBFC1;
+    font-weight: 500;
+    font-size: 1rem ;
+    text-align: center;
+    color: #FFFFFF;
 }
