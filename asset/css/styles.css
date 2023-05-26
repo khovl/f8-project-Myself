@@ -38,9 +38,11 @@ a {
 .header.fixed {
     position: sticky;
     top:-8px;
+    z-index: 1;
 }
 .header .body {
     padding-top: 52px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,6 +85,7 @@ a {
 /* hero left */
 .hero {
     margin-top: 50px;
+    padding-bottom: 70px;
 }
 .hero .body {
     display: flex;
@@ -107,6 +110,7 @@ a {
     color: #0D1111;
 }
 .hero .infor .desc {
+    width: 374px;
     margin-top: 46px;
     font-weight: 400;
     font-size: 1.8rem;
@@ -125,7 +129,7 @@ a {
     color: #FFFFFF;
 }
 .hero .infor .play {
-    padding-left: 50px;
+    margin-left: 50px;
     width: 62px;
     height: 62px;
     background: #FFFFFF;
@@ -137,6 +141,7 @@ a {
     opacity: 0.8;
     cursor: pointer;
 }
+
 /* hero- right */
 .image {
     padding-left: 36px;
@@ -246,4 +251,178 @@ a {
     font-size: 1rem ;
     text-align: center;
     color: #FFFFFF;
+}
+/* Feature */
+.feature {
+    margin-top: 130px;
+
+}
+.feature .infor .text {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #767E7E;
+}
+.feature .infor .title {
+    margin-top: 18px;
+    width: 577px;
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 1.33;
+    color: #0D1111;
+}
+.feature .infor .desc {
+    margin-top: 18px;
+    width: 590px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #767E7E;
+}
+.feature .list-feature {
+    margin-top: 80px;
+    display: flex;
+    gap: 200px;
+}
+.feature .list-feature .item {
+
+    width: 224px;
+}
+.feature .list-feature .item .title {
+    margin-top: 26px;
+    font-weight: 600;
+    font-size: 2.0rem;
+    color: #0D1111;
+}
+.feature .list-feature .item .desc {
+    
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.69;
+    color: #9DA6A5;
+}
+/* Courses */
+.courses {
+    margin-top: 130px;   
+}
+.courses .infor .text {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #767E7E;
+}
+.courses .infor .title {
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 1.5;
+    color: #0D1111;
+}
+.courses .infor .course-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.courses .infor .desc {
+    width: 525px;
+    margin-top: 19px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #767E7E;
+}
+.courses .infor .read-more {
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-decoration-line: underline;
+    color: #1EBFC1;
+}
+.courses .list-item {
+    margin-top: 79px;
+    display: flex;
+}
+.courses .list-item .item {
+    position: relative;
+    width: 33.33%;
+}
+.courses .list-item .item .img-item {
+    width: 359px;
+    height: 393px;
+    background: #D0EFED;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.courses .list-item .item .card {
+    position: absolute;
+    width: 325px; 
+    top: 322px;
+    left: 17px;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 90px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+.courses .list-item .item .card .card-content {
+    padding-left: 25px;
+}
+.courses .list-item .item .card .title {
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #0D1111;
+}
+.courses .list-item .item .card .fee {
+    display: flex;
+    margin-top: 16px;
+}
+.courses .list-item .item .card .fee span {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #767E7E;
+    
+}
+.courses .list-item .item .card .fee strong {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #0D1111;
+    font-style: bold;
+    margin-left: 5px;   
+}
+.courses .list-item .item .card .desc {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #9DA6A5;
+}
+.courses .list-item .item .card .date {
+    display: flex;
+    margin-top: 18px;
+    padding-bottom: 29px; 
+    
+}
+.courses .list-item .item .card .date .class {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.courses .list-item .item .card .date .class::before {
+    display: inline-block;  
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #1EBFC1;
+    border-radius: 50%;
+}
+.courses .list-item .item .card .date .time {
+    margin-left: 26px;  
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.courses .list-item .item .card .date .time::before {
+    display: inline-block;  
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #1EBFC1;
+    border-radius: 50%;
 }
