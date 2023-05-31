@@ -350,6 +350,7 @@ a {
     background: #D0EFED;
     object-fit: cover;
     border-radius: 8px;
+    opacity: 0.9;
 }
 .courses .list-item .item .card {
     position: absolute;
@@ -425,4 +426,116 @@ a {
     height: 6px;
     background: #1EBFC1;
     border-radius: 50%;
+}
+/* CountDown */
+.countdown {
+    margin-top: 265px;
+}
+.countdown .content-countdown {
+    width: 862px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.countdown .numb {
+    padding: 8px;
+}
+.countdown .desc {
+    margin-top: 11px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #767E7E;
+    text-align: center;
+}
+/* <!-- Testimonial-eLearning  --> */
+.testtimonial {
+    margin-top: 264px;
+}
+.testtimonial .body {
+    display: flex;
+}
+.testtimonial .body .infor {
+    position: relative;
+    width: 42%;
+}
+.testtimonial .body .infor .desc {
+    margin-top: 27px;
+    width: 419px;
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: #5D6564;
+}
+.testtimonial .body .infor .author {
+    margin-top: 33px;
+    margin-left: 13px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #767E7E;
+}
+.testtimonial .body .infor .author::before {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 2px;
+    left: 0px;
+    bottom: 109px;
+    background: #070707;
+}
+.testtimonial .body .infor .author .ben {
+    color: #070707;
+}
+.testtimonial .body .infor .direc {
+    display: flex;
+    margin-top: 52px;
+    gap: 30px;  
+}
+.testtimonial .body .infor button.btn-direc {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #2AC9BF;
+    border: none;
+}
+.testtimonial .body .infor .direc img {
+    align-content: center;
+}
+.testtimonial .body .infor button.btn-direc:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.testtimonial .avatars {
+    position: relative;
+    width: 52%;
+}
+.testtimonial .avatars .main-avt {
+    position: absolute;
+    margin-left: 345px;
+    margin-top: 107px;
+}
+.testtimonial .avatars .avt-1 {
+    position: absolute;
+    top: 0;
+    left: 216px;
+}
+.testtimonial .avatars .avt-2 {
+    position: absolute;
+    top: 19px;
+    left: 641px;
+}
+.testtimonial .avatars .avt-3 {
+    position: absolute;
+    top: 374px;
+    left: 641px;
+}
+.testtimonial .avatars .avt-4 {
+    position: absolute;
+    top: 403px;
+    left: 284px;
+}
+.testtimonial .avatars .avt-5 {
+    position: absolute;
+    top: 258px;
+    left: 72px;
 }
