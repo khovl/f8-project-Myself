@@ -34,6 +34,7 @@ a {
 /* Header */
 .header {
     background: #FFFFFF;
+    height: 100px;
 }
 .header.fixed {
     position: sticky;
@@ -538,4 +539,82 @@ a {
     position: absolute;
     top: 258px;
     left: 72px;
+}
+/* CTA */
+.cta {
+    margin-top: 250px;
+    background: #DEF6F5;
+}
+.cta .body {
+    display: flex;
+    padding-bottom: 88px;
+    align-items: center;
+
+}
+.cta .body .text .title {
+    padding-top: 76px ;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 4.2rem;
+    color: #070707;
+}
+.cta .body .text .desc {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #767E7E;
+
+}
+.cta .body .btn-cta {
+    margin-top: 88px;
+    margin-left: 450px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* Footer */
+.footer .body {
+    padding-top: 130px;
+}
+.footer .row-top {
+    display: flex;
+    gap: 144px;
+}
+.footer .row-top .logo {
+    
+}
+.footer .row-top .subtitle {
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #2E2E2E;
+}
+.footer .row-top .text {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #535353;
+}
+.footer .row-top .t1 {
+    margin-top: 26px;
+}
+.footer .row-top .column4 .social {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #535353;
+    gap: 13px;
+}
+.footer .row-low {
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+.footer .row-low .copyright {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #B0B5B4;
 }
